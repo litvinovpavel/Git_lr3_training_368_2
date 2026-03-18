@@ -84,7 +84,7 @@ public class Direction {
         } else if (_hours == 6) {
             msg = "S";
         } else if(_hours == 9) {
-            msg = "E";
+            msg = "W"; // West (Запад)
         }
 
         return msg;
